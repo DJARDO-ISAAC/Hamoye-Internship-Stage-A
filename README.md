@@ -4,7 +4,7 @@
 import pandas as pd
 import statistics
 
-df = pd.read_csv('C://Users//D-IKE//Desktop//HamoyeCODES//project.csv')
+df = pd.read_csv('C://Users//D-IKE//Desktop//HamoyeCODES//FoodBalanceSheets_E_Africa_NOFLAG.csv')
 df.head()
 df.groupby(['items']).sum()
 print(df)
